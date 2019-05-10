@@ -1,0 +1,13 @@
+ikona za lokacijo: /$
+ikona za naš app v orodni vrstici: /E000 ali pa /E047
+gumbi za prvo stran:
+	https://orbit.kiwi/components/buttongroup/
+gumbi za "help others" in "submit" review:
+	import Button from "@kiwicom/orbit-components/lib/Button"
+	<Button>Primary Button</Button>
+imput field - https://orbit.kiwi/components/inputfield/:
+
+	import InputField from "@kiwicom/orbit-components/lib/InputField";
+	<InputField />
+popover component (mislm da je to za baloncke? not sure :/)
+	https://orbit.kiwi/components/popover/
