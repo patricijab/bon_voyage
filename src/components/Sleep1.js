@@ -41,7 +41,7 @@ const Sleep1 = () => (
             <span className="iconWrapper2">
                 <Popover content={
                     <React.Fragment>
-                        <div className="avgrevheader"> <b>Average review of this location</b> (3,0)<br/></div>
+                        <div className="sleep-avgrevheader"> <b>Average review of this location</b> (3,0)<br/></div>
                         <ReviewLine category="Comfort" rating={3}/>
                         <ReviewLine category="Peace" rating={2}/>
                         <ReviewLine category="Cleanliness" rating={4}/>

@@ -6,6 +6,8 @@ import InputField from "@kiwicom/orbit-components/lib/InputField";
 import ButtonLink from "@kiwicom/orbit-components/lib/ButtonLink";
 import Heading from "@kiwicom/orbit-components/lib/Heading";
 import "./RatePage.css"
+import { Link } from "react-router-dom";
+
 
 const ReviewLine = (props) => (
 	<div className="review-line">
@@ -42,8 +44,11 @@ const RatePage = () => (
 		</div>
 
 		<div >
+			<Link to="/">
         	<Button className="submit-button">Submit</Button>
+			</Link>
 		</div>
+		
 
     </div>
 
