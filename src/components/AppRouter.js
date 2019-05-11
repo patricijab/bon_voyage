@@ -35,7 +35,6 @@ function AppRouter() {
 				
 				<Route path="/" exact component={Layover} />
 				<Route path="/sleep/" component={Sleep1} />
-				<Route path="/users/" component={Users} />
 			</div>
 		</Router>
 	);
