@@ -13,7 +13,7 @@ import InputField from "@kiwicom/orbit-components/lib/InputField";
 
 
 const ButtonLink = (props) => (
-	<Link to="/content/"
+	<Link to="/sleep/"
 		className="buttonlink">
 		<Card>
 			<CardSection>
@@ -58,7 +58,7 @@ const Layover = () => (
 		
 		<div className="layout-button">
 			<Button >
-				Help others? Add a review!
+				Want to help others? Add a review!
 			</Button>
 		</div>
 		

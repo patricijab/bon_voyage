@@ -10,8 +10,7 @@ function AppRouter() {
 		<Router>
 			<div>
 				<Route path="/" exact component={Layover} />
-				<Route path="/content/" component={Sleep1} />
-				<Route path="/users/" component={Users} />
+				<Route path="/sleep/" component={Sleep1} />
 			</div>
 		</Router>
 	);
