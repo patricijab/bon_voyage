@@ -57,9 +57,11 @@ const Layover = () => (
 		</div>
 		
 		<div className="layout-button">
-			<Button >
-				Want to help others? Add a review!
-			</Button>
+			<Link to="/chosen/">
+				<Button >
+					Want to help others? Add a review!
+				</Button>
+			</Link>
 		</div>
 		
 	</div>
