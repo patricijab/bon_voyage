@@ -23,7 +23,6 @@ h2 {
     border-radius: 4px;
     color: #00a991 !important;
     font-size: 12px;
-    cursor: pointer;
 }
 
 .buttonlink:first-of-type {
@@ -44,7 +43,6 @@ h2 {
 
 .layout-button {
     margin: 20px 60px;
-    cursor: pointer;
 }
 
 .layout-button button {

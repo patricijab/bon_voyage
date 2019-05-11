@@ -4,11 +4,20 @@ import RatingStars from "@kiwicom/orbit-components/lib/RatingStars";
 import Visibility from "@kiwicom/orbit-components/lib/icons/Visibility";
 import InputField from "@kiwicom/orbit-components/lib/InputField";
 import ButtonLink from "@kiwicom/orbit-components/lib/ButtonLink";
+import Heading from "@kiwicom/orbit-components/lib/Heading";
+import "./RatePage.css"
+
+
 
 const RatePage = () => (
-    <span className="">
-        <div className="headertext">You are  rating this location for <b>sleeping</b>!<br/></div>
-
+    <div className="">
+        
+        <div className="rate-header">
+                <Heading type="title3" element="h3">
+                    You are  rating this location for <br/><span className="sleeping">sleeping</span>
+                </Heading>
+        </div>
+        
         <div > <span className="avgrate">Comfort:</span><span className="avgrate"><RatingStars rating={3} size="small" color="attention" showEmpty /></span></div>
         <div > <span className="avgrate">Peace:</span><span className="avgrate"><RatingStars rating={2} size="small" color="attention" showEmpty /></span></div>
         <div > <span className="avgrate">Cleanliness:</span><span className="avgrate"><RatingStars rating={4} size="small" color="attention" showEmpty /></span></div>
@@ -19,7 +28,7 @@ const RatePage = () => (
 
         <Button>Submit</Button>
 
-    </span>
+    </div>
 
 );
 

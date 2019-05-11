@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const ReviewLine = (props) => (
 	<div className="review-line">
         <span className="review-line-category">{props.category}:</span>
-        <span className="avgrate"><RatingStars rating={props.rating} size="small" color="attention" showEmpty /></span>
+        <span className="avgrate"><RatingStars rating={props.rating} size="small" showEmpty /></span>
     </div>
 );
 
@@ -35,7 +35,7 @@ const Sleep1 = () => (
                 <Location size="large"/>
             </span>
             <span className="rating1">
-                <RatingStars rating={2.7} size="small" color="attention" showEmpty />
+                <RatingStars rating={2.7} size="small" showEmpty />
             </span>
 
             <span className="iconWrapper2">
@@ -53,34 +53,34 @@ const Sleep1 = () => (
             </span>
 
             <span className="rating2">
-                <RatingStars rating={3} size="small" color="attention" showEmpty />
+                <RatingStars rating={3} size="small" showEmpty />
             </span>
 
             <span className="iconWrapper3">
                 <Location size="large"/>
             </span>
             <span className="rating3">
-                <RatingStars rating={4} size="small" color="attention" showEmpty />
+                <RatingStars rating={4} size="small" showEmpty />
             </span>
 
             <span className="iconWrapper4">
                 <Location size="large"/>
             </span>
             <span className="rating4">
-                <RatingStars rating={2} size="small" color="attention" showEmpty />
+                <RatingStars rating={2} size="small" showEmpty />
             </span>
 
             <span className="iconWrapper5">
                 <Location size="large"/>
             </span>
             <span className="rating5">
-                <RatingStars rating={3.9} size="small" color="attention" showEmpty />
+                <RatingStars rating={3.9} size="small"showEmpty />
             </span>
         </div>
 	
-		<div>
+		<Link to="/chosen/">
 			<Button className="full-width">Want to help others? Add a review!</Button>
-		</div>
+		</Link>
     
     
     </div>
