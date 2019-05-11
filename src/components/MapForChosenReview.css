@@ -1,0 +1,99 @@
+.imageWrapper{
+    width:360px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow:scroll;
+    position: relative;
+}
+
+.iconWrapper1{
+    z-index: 2;
+    color:#00826f;
+    top:120px;
+    left:200px;
+    position: absolute;
+}
+
+.rating1 {
+    z-index: 2;
+    top:145px;
+    left:172px;
+    position: absolute;
+}
+
+.iconWrapper2{
+    z-index: 2;
+    color:#00826f;
+    top:335px;
+    left:600px;
+    position: absolute;
+}
+
+.rating2 {
+    z-index: 2;
+    top:360px;
+    left:572px;
+    position: absolute;
+}
+
+.avgrate {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 7px;
+}
+
+.avgrevheader {
+    color:#00826f;
+    padding-bottom: 5px;
+    size: 30px;
+}
+
+.iconWrapper3{
+    z-index: 2;
+    color:#00826f;
+    top:130px;
+    left:530px;
+    position: absolute;
+}
+
+.rating3 {
+    z-index: 2;
+    top:155px;
+    left:502px;
+    position: absolute;
+}
+
+.iconWrapper4{
+    z-index: 2;
+    color:#00826f;
+    top:130px;
+    left:665px;
+    position: absolute;
+}
+
+.rating4 {
+    z-index: 2;
+    top:155px;
+    left:637px;
+    position: absolute;
+}
+
+.iconWrapper5{
+    z-index: 2;
+    color:#00826f;
+    top:200px;
+    left:800px;
+    position: absolute;
+}
+
+.rating5 {
+    z-index: 2;
+    top:225px;
+    left:772px;
+    position: absolute;
+}
+
+.brnik-image{
+    overflow: scroll;
+}
+
