@@ -7,7 +7,12 @@ import ButtonLink from "@kiwicom/orbit-components/lib/ButtonLink";
 import Heading from "@kiwicom/orbit-components/lib/Heading";
 import "./RatePage.css"
 
-
+const ReviewLine = (props) => (
+	<div className="review-line">
+		<span className="review-line-category">{props.category}:</span>
+		<span className="avgrate"><RatingStars rating={props.rating} size="small" showEmpty /></span>
+	</div>
+);
 
 const RatePage = () => (
     <div className="">
@@ -17,16 +22,28 @@ const RatePage = () => (
                     You are  rating this location for <br/><span className="sleeping">sleeping</span>
                 </Heading>
         </div>
-        
-        <div > <span className="avgrate">Comfort:</span><span className="avgrate"><RatingStars rating={3} size="small" color="attention" showEmpty /></span></div>
-        <div > <span className="avgrate">Peace:</span><span className="avgrate"><RatingStars rating={2} size="small" color="attention" showEmpty /></span></div>
-        <div > <span className="avgrate">Cleanliness:</span><span className="avgrate"><RatingStars rating={4} size="small" color="attention" showEmpty /></span></div>
-
+	
+		<div className="avgrevheader">
+		<ReviewLine category="Comfort" rating={3}/>
+		<ReviewLine category="Peace" rating={2}/>
+		<ReviewLine category="Cleanliness" rating={4}/>
+		
+	
+		<span className="review-line-category">Comment:</span>
+		
+		
+			<div className="comment">
         <InputField
             placeholder="Leave your thoughts here..."
+			size="small"
         />
+			</div>
+		
+		</div>
 
-        <Button>Submit</Button>
+		<div >
+        	<Button className="submit-button">Submit</Button>
+		</div>
 
     </div>
 

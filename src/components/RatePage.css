@@ -1,11 +1,37 @@
 .rate-header {
-    margin: 16px;
+    margin: 50px 16px;
     text-align: center;
+    font-size: 20px;
 }
 
 .sleeping {
     color: #00a991;
-    font-size: 20px ;
+    font-size: 31px ;
     padding-top: 5px;
+
+}
+
+.avgrate {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 7px;
+}
+
+.review-line-category {
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.avgrevheader {
+    margin-left: 32px;
+}
+
+.comment {
+    margin-right: 16px;
+}
+
+.submit-button {
+    margin: 30px auto;
 
 }
