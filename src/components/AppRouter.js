@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Layover from './Layover'
+import Sleep1 from './Sleep1'
 
 function Index() {
 	return <h2>Home</h2>;
@@ -24,7 +25,7 @@ function AppRouter() {
 							<Link to="/">Layover</Link>
 						</li>
 						<li>
-							<Link to="/about/">About</Link>
+							<Link to="/sleep/">Sleep</Link>
 						</li>
 						<li>
 							<Link to="/users/">Users</Link>
@@ -33,7 +34,7 @@ function AppRouter() {
 				</nav>
 				
 				<Route path="/" exact component={Layover} />
-				<Route path="/about/" component={About} />
+				<Route path="/sleep/" component={Sleep1} />
 				<Route path="/users/" component={Users} />
 			</div>
 		</Router>
