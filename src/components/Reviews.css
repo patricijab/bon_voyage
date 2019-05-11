@@ -1,16 +1,34 @@
 .MarkZuckerberg {
     top: 0px;
-    margin:0px;
+    margin:1px;
+    padding: 0px 2px 2px 3px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+
+
+.AgathaChristie {
     padding: 0px 2px 2px 3px;
     width: 100%;
 }
 
-.AgathaChristie {
-    top: 0px;
-    margin:0px;
-    padding: 0px 2px 2px 3px;
-    width: 100%;
+.review-line-category {
+    display: inline-block;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
+
+
+.avgrevheader {
+    color: #00826f;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+//size: 30px;
+}
+
 
 .NikolaTesla {
     top: 0px;
@@ -30,7 +48,8 @@
 
 .authorHeader{
     color:#00826f;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
 
 .avgrate {
@@ -41,4 +60,5 @@
 
 .comment {
     padding-top: 5px;
+    padding-left: 15px;
 }

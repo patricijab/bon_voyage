@@ -22,7 +22,7 @@ h2 {
 .rating1 {
     z-index: 2;
     top:145px;
-    left:172px;
+    left:166px;
     position: absolute;
 }
 
@@ -37,7 +37,7 @@ h2 {
 .rating2 {
     z-index: 2;
     top:360px;
-    left:572px;
+    left:566px;
     position: absolute;
 }
 
@@ -56,7 +56,6 @@ h2 {
 .avgrevheader {
     color: #00826f;
     font-weight: bold;
-    text-decoration: underline;
     padding-top: 10px;
     padding-bottom: 15px;
     //size: 30px;
@@ -73,7 +72,7 @@ h2 {
 .rating3 {
     z-index: 2;
     top:155px;
-    left:502px;
+    left:496px;
     position: absolute;
 }
 
@@ -88,7 +87,7 @@ h2 {
 .rating4 {
     z-index: 2;
     top:155px;
-    left:637px;
+    left:632px;
     position: absolute;
 }
 
@@ -103,7 +102,7 @@ h2 {
 .rating5 {
     z-index: 2;
     top:225px;
-    left:772px;
+    left:766px;
     position: absolute;
 }
 
