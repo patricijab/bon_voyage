@@ -2,15 +2,12 @@ import React from "react"
 import "./Sleep1.css"
 import brnik from '../images/brnik.png';
 import Button from "@kiwicom/orbit-components/lib/Button"
-import layover from "../images/layover.png";
 import Location from "@kiwicom/orbit-components/lib/icons/Location";
 import RatingStars from "@kiwicom/orbit-components/lib/RatingStars";
 import Popover from "@kiwicom/orbit-components/lib/Popover";
-import Ac from "@kiwicom/orbit-components/lib/Popover";
-import ListChoice from "@kiwicom/orbit-components/lib/ListChoice";
-import Feedback from "@kiwicom/orbit-components/lib/icons/Feedback";
 import Heading from "@kiwicom/orbit-components/lib/Heading";
 import Airplane from "@kiwicom/orbit-components/lib/icons/Airplane"
+import { Link } from "react-router-dom";
 
 
 const ReviewLine = (props) => (
@@ -18,7 +15,9 @@ const ReviewLine = (props) => (
         <span className="review-line-category">{props.category}:</span>
         <span className="avgrate"><RatingStars rating={props.rating} size="small" color="attention" showEmpty /></span>
     </div>
-)
+);
+
+
 
 const Sleep1 = () => (
 
@@ -46,7 +45,7 @@ const Sleep1 = () => (
                         <ReviewLine category="Comfort" rating={3}/>
                         <ReviewLine category="Peace" rating={2}/>
                         <ReviewLine category="Cleanliness" rating={4}/>
-                        <Button className="full-width">Read reviews</Button>
+						<Link to="/reviews/"><Button className="full-width">Read reviews</Button></Link>
                     </React.Fragment>
                 }>
                     <Location size="large"/>

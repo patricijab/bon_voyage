@@ -1,0 +1,44 @@
+.MarkZuckerberg {
+    top: 0px;
+    margin:0px;
+    padding: 0px 2px 2px 3px;
+    width: 100%;
+}
+
+.AgathaChristie {
+    top: 0px;
+    margin:0px;
+    padding: 0px 2px 2px 3px;
+    width: 100%;
+}
+
+.NikolaTesla {
+    top: 0px;
+    margin:0px;
+    padding: 0px 2px 2px 3px;
+    width: 100%;
+}
+
+.SantaClaus {
+    top: 0px;
+    margin:0px;
+    padding: 0px 2px 2px 3px;
+    width: 100%;
+    padding-bottom: 42px;
+}
+
+
+.authorHeader{
+    color:#00826f;
+    padding-bottom: 7px;
+}
+
+.avgrate {
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 7px;
+}
+
+.comment {
+    padding-top: 5px;
+}
