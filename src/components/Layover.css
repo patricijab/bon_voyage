@@ -4,4 +4,46 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.activity-cards {
+    margin: 20px 60px;
+}
+
+.buttonlink {
+    text-align: center;
+    flex: 1;
+    border: 1px #00a991 solid !important;
+    border-radius: 4px;
+    color: #00a991 !important;
+    font-size: 12px;
+}
+.buttonlink:first-of-type {
+    margin-right: 12px;
+}
+
+.activity-cards-container {
+    display: flex;
+
+}
+.activity-cards-container:first-of-type {
+    margin-bottom: 12px;
+}
+
+.layout-input {
+    margin: 0 60px;
+}
+
+.layout-button {
+    margin: 20px 60px;
+}
+
+.layout-button button {
+    width: 100%;
 }
