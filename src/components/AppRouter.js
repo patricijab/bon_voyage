@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Layover from './Layover'
 import Sleep1 from './Sleep1'
 import Reviews from './Reviews'
+import RatePage from './RatePage'
 import ChooseForReview from './ChooseForReview'
 import MapForChosenReview from './MapForChosenReview'
 
@@ -34,6 +35,9 @@ function AppRouter() {
 							<Link to="/review/">Review</Link>
 						</li>
 						<li>
+							<Link to="/rate/">Rate</Link>
+						</li>
+						<li>
 							<Link to="/chosen/">ChooseForReview</Link>
 						</li>
 						<li>
@@ -44,6 +48,7 @@ function AppRouter() {
 				
 				<Route path="/" exact component={Layover} />
 				<Route path="/sleep/" component={Sleep1} />
+				<Route path="/rate/" component={RatePage} />
 				<Route path="/review/" component={Reviews} />
 				<Route path="/chosen/" component={ChooseForReview} />
 				<Route path="/chosenmap/" component={MapForChosenReview} />
